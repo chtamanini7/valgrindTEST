@@ -1,0 +1,6 @@
+C:/Users/Tama/Desktop/algo2-taller-listas-master/cmake-build-debug/CMakeFiles/gtest.dir
+C:/Users/Tama/Desktop/algo2-taller-listas-master/cmake-build-debug/CMakeFiles/gtest_main.dir
+C:/Users/Tama/Desktop/algo2-taller-listas-master/cmake-build-debug/CMakeFiles/correrTests.dir
+C:/Users/Tama/Desktop/algo2-taller-listas-master/cmake-build-debug/CMakeFiles/correrValgrind.dir
+C:/Users/Tama/Desktop/algo2-taller-listas-master/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Tama/Desktop/algo2-taller-listas-master/cmake-build-debug/CMakeFiles/rebuild_cache.dir
