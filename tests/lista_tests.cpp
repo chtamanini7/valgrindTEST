@@ -99,22 +99,6 @@ TEST(lista_test, test_agregar_varios_elementos_solo_atras) {
     ASSERT_EQ(l.iesimo(3), 45);
 }
 
-
-TEST(lista_test, test_agregar_varios_elementos_adelante_y_atras) {
-    Lista l;
-    l.agregarAdelante(42);
-    l.agregarAdelante(41);
-    l.agregarAtras(43);
-    l.agregarAdelante(40);
-    l.agregarAtras(44);
-    ASSERT_EQ(l.longitud(), 5);
-    ASSERT_EQ(l.iesimo(0), 40);
-    ASSERT_EQ(l.iesimo(1), 41);
-    ASSERT_EQ(l.iesimo(2), 42);
-    ASSERT_EQ(l.iesimo(3), 43);
-    ASSERT_EQ(l.iesimo(4), 44);
-}
-
 TEST(lista_test, test_operador_asignacion) {
     Lista l;
     l.agregarAtras(42);
@@ -140,5 +124,22 @@ TEST(lista_test, test_operador_asignacion) {
 
     otra = Lista();
     ASSERT_EQ(otra.longitud(), 0);
+}
+
+
+
+TEST(lista_test, test_agregar_varios_elementos_adelante_y_atras) {
+    Lista l;
+    l.agregarAdelante(42);
+    l.agregarAdelante(41);
+    l.agregarAtras(43);
+    l.agregarAdelante(40);
+    l.agregarAtras(44);
+    ASSERT_EQ(l.longitud(), 5);
+    ASSERT_EQ(l.iesimo(0), 40);
+    ASSERT_EQ(l.iesimo(1), 41);
+    ASSERT_EQ(l.iesimo(2), 42);
+    ASSERT_EQ(l.iesimo(3), 43);
+    ASSERT_EQ(l.iesimo(4), 44);
 }
 
